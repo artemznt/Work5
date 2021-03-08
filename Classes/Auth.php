@@ -10,6 +10,7 @@ class Auth extends Db
     private $auth;
     private $auth_login;
     private $hash_password;
+    private $hash;
 
     public function __construct()
     {
